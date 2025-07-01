@@ -1,0 +1,194 @@
+@font-face {
+ font-family: 'Questrial';
+ src: url('fonts/Questrial/Questrial-Regular.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FFF3E0;
+}
+
+
+.btn-primary {
+    background-color: #FF7043;
+    border: none;
+}
+
+
+.btn-primary:hover {
+    background-color: #FF8A65;
+}
+
+.btn-accent {
+ background-color: #FFD54F;
+ color: #333;
+}
+
+.btn-accent:hover {
+ background-color: #FFC107;
+}
+
+p {
+  color:#5D4037;
+} 
+
+/* navbar-custom.css */
+
+#header-navbar {
+  background-color: #FFE0B2; /* Fondo cálido */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+}
+
+#header-navbar .navbar-brand {
+  font-weight: 700;
+  color: #5D4037;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+#header-navbar .navbar-brand:hover {
+  color: #FF7043;
+}
+
+#header-navbar .nav-link {
+  color: #5D4037;
+  transition: color 0.3s ease;
+}
+
+#header-navbar .nav-link:hover {
+  color: #FF7043;
+}
+
+.lead-text {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #5D4037; /* Warm brown-gray */
+}
+
+/*Quienesd somos*/
+.destacado-nosotros {
+  background-color: #FFE0B2;
+  padding: 1.25rem 1.5rem;
+  border-left: 5px solid #FF7043;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.icono-corazon-animado {
+  font-size: 4rem;
+  animation: cambiarColor 4s infinite alternate;
+}
+
+/* Animación con colores cálidos del sitio */
+@keyframes cambiarColor {
+  0%   { color: #FF7043; }   /* Naranja */
+  33%  { color: #FFB74D; }   /* Naranja suave */
+  66%  { color: #8D6E63; }   /* Marrón */
+  100% { color: #5D4037; }   /* Marrón oscuro */
+}
+
+/*Mision*/
+#mision {
+  background-color: #FDEBD0; /* Light coral */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+#mision h2 {
+  color: #8D6E63; /* Warm brown-gray */
+  font-weight: bold;
+}
+
+#mision .icon-box {
+  background-color: #FDEBD0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Apoyanos*/
+#apoyanos img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+#apoyanos img:hover {
+  transform: scale(1.05);
+}
+
+/* Como Ayudar */
+#como-ayudar .row {
+  transition: transform 0.3s ease;
+}
+
+#como-ayudar .row:hover {
+  transform: scale(1.01);
+}
+
+.custom-arrow {
+  color: #FF7043; /* Color vibrante del tema */
+}
+
+.bounce-arrow {
+  animation: bounce 1.5s infinite;
+  display: inline-block;
+}
+
+.bounce-arrow.delay-1 {
+  animation-delay: 0.2s;
+}
+
+.bounce-arrow.delay-2 {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+/*Contactanos*/
+.btn-yape {
+  background-color: #7209B7;
+  color: white;
+  border: none;
+}
+
+.btn-yape:hover {
+  background-color: #5E0EA0;
+  color: white;
+}
+
+/* hero section */
+
+#home {
+  background-color: #FDEBD0; /* Soft coral */
+  color: #333333;
+}
+
+/* Agradecimientos sectin*/
+#agradecimiento-img {
+    max-height: 400px;
+}
+
+
+/* footer section*/
+
+footer {
+    background-color: #5D4037; /* Warm brown-gray */
+    color: #FFF3E0;
+}
